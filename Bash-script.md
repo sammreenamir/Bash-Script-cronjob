@@ -116,7 +116,7 @@ By following these steps, You will have a monitoring script that logs system res
 
 
 ## output:
-
+```sh
 Timestamp: 2024-07-18 16:31:05, CPU Usage: 0%, RAM Usage: 19.2461%, Root Usage: 1%
 [2024-07-18 16:37:25] CPU Usage:
 [2024-07-18 16:37:25] RAM Usage: Used: 750Mi, Total: 3.8Gi, Free: 3.0Gi
@@ -132,7 +132,7 @@ Timestamp: 2024-07-18 16:31:05, CPU Usage: 0%, RAM Usage: 19.2461%, Root Usage: 
 [2024-07-18 16:41:06] CPU Usage: 2.74%
 [2024-07-18 16:41:06] RAM Usage: Used: 765Mi, Total: 3.8Gi, Free: 2.8Gi
 [2024-07-18 16:41:06] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
-
+```
 
 
 
