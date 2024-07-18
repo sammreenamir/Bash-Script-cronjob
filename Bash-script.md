@@ -116,7 +116,7 @@ By following these steps, You will have a monitoring script that logs system res
 
 
 ## output:
-[root@Sammreen-PC:~]# cat /var/log/system_monitor.log
+
 Timestamp: 2024-07-18 16:31:05, CPU Usage: 0%, RAM Usage: 19.2461%, Root Usage: 1%
 [2024-07-18 16:37:25] CPU Usage:
 [2024-07-18 16:37:25] RAM Usage: Used: 750Mi, Total: 3.8Gi, Free: 3.0Gi
