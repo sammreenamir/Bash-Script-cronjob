@@ -101,7 +101,7 @@ crontab -e
 Add the following line to run the script every 2 minutes:
 
 ```sh
-*/2 * * * * /root/system_monitor.sh
+*/2 * * * * /root/monitor.sh
 ```
 
 Replace /path/to/system_monitor.sh with the actual path to the script.
@@ -118,20 +118,34 @@ By following these steps, You will have a monitoring script that logs system res
 ## output:
 ```sh
 Timestamp: 2024-07-18 16:31:05, CPU Usage: 0%, RAM Usage: 19.2461%, Root Usage: 1%
-[2024-07-18 16:37:25] CPU Usage:
-[2024-07-18 16:37:25] RAM Usage: Used: 750Mi, Total: 3.8Gi, Free: 3.0Gi
-[2024-07-18 16:37:25] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
-------------------------------------
-[2024-07-18 16:39:37] CPU Usage: 5.56%
-[2024-07-18 16:39:37] RAM Usage: Used: 796Mi, Total: 3.8Gi, Free: 2.8Gi
-[2024-07-18 16:39:37] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
-------------------------------------
-[2024-07-18 16:40:54] CPU Usage: 3.22%
-[2024-07-18 16:40:54] RAM Usage: Used: 745Mi, Total: 3.8Gi, Free: 2.8Gi
-[2024-07-18 16:40:54] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
-[2024-07-18 16:41:06] CPU Usage: 2.74%
-[2024-07-18 16:41:06] RAM Usage: Used: 765Mi, Total: 3.8Gi, Free: 2.8Gi
-[2024-07-18 16:41:06] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-18 18:18:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:06:01] CPU Usage: 3.51%
+[2024-07-19 00:06:01] RAM Usage: Used: 758Mi, Total: 3.8Gi, Free: 2.8Gi
+[2024-07-19 00:06:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:08:01] CPU Usage: 0.00%
+[2024-07-19 00:08:01] RAM Usage: Used: 744Mi, Total: 3.8Gi, Free: 2.8Gi
+[2024-07-19 00:08:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:10:01] CPU Usage: 1.74%
+[2024-07-19 00:10:01] RAM Usage: Used: 727Mi, Total: 3.8Gi, Free: 2.8Gi
+[2024-07-19 00:10:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:12:01] CPU Usage: 6.00%
+[2024-07-19 00:12:01] RAM Usage: Used: 720Mi, Total: 3.8Gi, Free: 2.8Gi
+[2024-07-19 00:12:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:14:01] CPU Usage: 0.00%
+[2024-07-19 00:14:01] RAM Usage: Used: 731Mi, Total: 3.8Gi, Free: 2.8Gi
+[2024-07-19 00:14:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:16:01] CPU Usage: 0.50%
+[2024-07-19 00:16:01] RAM Usage: Used: 731Mi, Total: 3.8Gi, Free: 2.7Gi
+[2024-07-19 00:16:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:18:01] CPU Usage: 1.74%
+[2024-07-19 00:18:01] RAM Usage: Used: 736Mi, Total: 3.8Gi, Free: 3.0Gi
+[2024-07-19 00:18:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:20:01] CPU Usage: 2.51%
+[2024-07-19 00:20:01] RAM Usage: Used: 715Mi, Total: 3.8Gi, Free: 3.0Gi
+[2024-07-19 00:20:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
+[2024-07-19 00:22:01] CPU Usage: 0.50%
+[2024-07-19 00:22:01] RAM Usage: Used: 725Mi, Total: 3.8Gi, Free: 3.0Gi
+[2024-07-19 00:22:01] Disk Usage: Used: 3.4G, Total: 1007G, Available: 953G
 ```
 
 
