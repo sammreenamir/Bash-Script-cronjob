@@ -1,5 +1,5 @@
-#Task: Run Bash file via cron job 
-##Team Member : Sammreen Amir, Zeeshan Riaz
+# Task: Run Bash file via cron job 
+## Team Member : Sammreen Amir, Zeeshan Riaz
 
 A bash script to monitor and log CPU, RAM, and storage usage on a Linux system. The script logs data with timestamps and can be scheduled to run periodically using cron.
 
