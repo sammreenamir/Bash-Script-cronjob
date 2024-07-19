@@ -31,7 +31,8 @@ sudo yum install sysstat
 ```
 
 ###3- Add bash script to the file 
-Note:This is the script to display the  CPU usage, RAM usage as a percentage, and root filesystem usage as a percentage.
+
+#### Note:This is the script to display the  CPU usage, RAM usage as a percentage, and root filesystem usage as a percentage.
 ```sh
 #!/bin/bash
 
@@ -53,7 +54,7 @@ ROOT_USAGE=$(df -h / | grep / | awk '{ print $5 }')
 # Write the output to the log file
 echo "$TIMESTAMP, CPU Usage: $CPU_USAGE%, RAM Usage: $RAM_USAGE%, Root Usage: $ROOT_USAGE" >> $LOG_FILE
 ```
-Note:This bash script is used to display the cpu information total memory usage memory and free memory of ram and root storage
+#### Note:This bash script is used to display the cpu information total memory usage memory and free memory of ram and root storage
 ```sh
 #!/bin/bash
 
@@ -148,8 +149,7 @@ cat /var/log/system_monitor.log
 By following these steps, You will have a monitoring script that logs system resource usage every 2 minutes.
 
 
-## output:
-script 1 output
+## script 1 output:
 ```sh
 2024-07-19 10:00:01, CPU Usage: 3.1%, RAM Usage: 18.8959%, Root Usage: 1%
 2024-07-19 10:16:01, CPU Usage: 0%, RAM Usage: 18.7115%, Root Usage: 1%
@@ -158,7 +158,7 @@ script 1 output
 2024-07-19 10:22:01, CPU Usage: 1.6%, RAM Usage: 18.9305%, Root Usage: 1%
 2024-07-19 10:24:01, CPU Usage: 1.6%, RAM Usage: 19.0192%, Root Usage: 1%
 ```
-script 2 output
+## script 2 output:
 ```sh
 2024-07-19 10:36:01, CPU Usage: 3.2%, RAM Usage: Used: 720Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
 2024-07-19 10:38:01, CPU Usage: 4.8%, RAM Usage: Used: 731Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
