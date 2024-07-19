@@ -30,7 +30,7 @@ sudo yum install sysstat
  vi monitor.sh
 ```
 
-###3- Add bash script to the file 
+### 3- Add bash script to the file 
 
 #### Note:This is the script to display the  CPU usage, RAM usage as a percentage, and root filesystem usage as a percentage.
 ```sh
