@@ -1,6 +1,4 @@
 # Task: Run Bash file via cron job 
-## Team Member : Sammreen Amir, Zeeshan Riaz
-
 A bash script to monitor and log CPU, RAM, and storage usage on a Linux system. The script logs data with timestamps and can be scheduled to run periodically using cron.
 
 ## Features
@@ -80,7 +78,8 @@ sudo chmod 666 /var/log/system_monitor.log
 
 ## Note:Run the script manually to see the output:
 ```sh
-./system_monitor.sh
+./monitor.sh
+
 ```
 
 ### 6- Install Chron
@@ -108,7 +107,7 @@ crontab -e
 Add the following line to run the script every 2 minutes:
 
 ```sh
-*/2 * * * * /root/monitor.sh
+*/2 * * * * /home/samreen_desktop/monitor.sh
 ```
 
 Replace /path/to/system_monitor.sh with the actual path to the script.
@@ -124,14 +123,8 @@ By following these steps, You will have a monitoring script that logs system res
 
 ## output:
 ```sh
-2024-07-19 10:36:01, CPU Usage: 3.2%, RAM Usage: Used: 720Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
-2024-07-19 10:38:01, CPU Usage: 4.8%, RAM Usage: Used: 731Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
-2024-07-19 10:40:01, CPU Usage: 3.1%, RAM Usage: Used: 716Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
-2024-07-19 10:42:01, CPU Usage: 3%, RAM Usage: Used: 730Mi, Total: 3.8Gi, Free: 3.0Gi, Root Usage: Used: 3.4G, Total: 1007G, Available: 953G
+2024-09-23 07:04:27, CPU Usage: 18.7%, RAM Usage: Used: 606Mi, Total: 1.8Gi, Free: 272Mi, Root Usage: Used: 3.0G, Total: 1007G, Available: 953G
+2024-09-23 07:06:01, CPU Usage: 14.3%, RAM Usage: Used: 603Mi, Total: 1.8Gi, Free: 274Mi, Root Usage: Used: 3.0G, Total: 1007G, Available: 953G
+2024-09-23 07:08:01, CPU Usage: 6.2%, RAM Usage: Used: 605Mi, Total: 1.8Gi, Free: 273Mi, Root Usage: Used: 3.0G, Total: 1007G, Available: 953G
+2024-09-23 07:10:01, CPU Usage: 14.7%, RAM Usage: Used: 604Mi, Total: 1.8Gi, Free: 273Mi, Root Usage: Used: 3.0G, Total: 1007G, Available: 953G
 ```
-
-
-
-
-
-
